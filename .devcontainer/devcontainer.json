@@ -1,0 +1,21 @@
+{
+  "name": "romeo",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+        "workbench.colorTheme": "Nebula"
+      },
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "chirtlelovesdolls.nebula-theme",
+        "ms-vsliveshare.vsliveshare"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
