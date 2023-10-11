@@ -1,0 +1,22 @@
+{
+  "name": "lfa_docker_romeo",
+  "version": "1.0.0",
+  "description": "First communication!",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getfutureproof/fp_study_notes_hello_docker.git"
+  },
+  "author": "futureproof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getfutureproof/fp_study_notes_hello_docker/issues"
+  },
+  "homepage": "https://github.com/getfutureproof/fp_study_notes_hello_docker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
